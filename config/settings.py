@@ -146,3 +146,7 @@ CRISPY_ALLOWED_TEMPLATE_PACKS = 'bootstrap5'
 #Email Config
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+#statick files config
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [str(BASE_DIR.joinpath('static'))]
